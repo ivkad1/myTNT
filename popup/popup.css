@@ -1,0 +1,77 @@
+html, body {
+  font-family:          Arial, sans-serif;
+  font-size: 15px;
+}
+
+a {
+text-decoration:none;
+color: black;
+}
+
+a:hover {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 20px 0px 10px;   
+}
+
+#bWeb {
+  padding-left: 35px;
+  height: 30px;
+  line-height: 30px;                
+  background-color: transparent;
+  background-image: url('tntLogo-mobile.png');
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+
+}
+
+#bQuote {
+  padding-left: 35px;
+  height: 30px;
+  line-height: 30px;                
+  background-color: transparent;
+  background-image: url('popup-icons.png');
+  background-repeat: no-repeat;
+  background-position: -3px -25px;
+
+}
+
+#bShip {
+  margin: 4px 0px 0px; 
+  padding-left: 35px;          
+  height: 30px;
+  line-height: 30px;                
+  background-color: transparent;
+  background-image: url('popup-icons.png');
+  background-repeat: no-repeat;
+  background-position: -3px -2px;
+
+}
+
+#bTrack {
+  margin: 4px 0px 0px; 
+  padding-left: 35px;          
+  height: 30px;
+  line-height: 30px;                   
+  background-color: transparent;
+  background-image: url('popup-icons.png');
+  background-repeat: no-repeat;
+  background-position: -3px -95px;
+
+}
+
+#bManage {
+  margin: 4px 0px 0px; 
+  padding-left: 35px;          
+  height: 30px;
+  line-height: 30px;                
+  background-color: transparent;
+  background-image: url('popup-icons.png');
+  background-repeat: no-repeat;
+  background-position: -3px -50px;
+
+}
