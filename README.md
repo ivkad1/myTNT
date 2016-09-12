@@ -1,3 +1,3 @@
-# myTNTToolbar
+# myTNT
 
-myTNT toolbar with additional features to existing TNT application.
+myTNT browser addon with additional features to existing TNT application.
