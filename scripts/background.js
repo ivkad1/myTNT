@@ -165,6 +165,11 @@ debug == "Yes" ? console.log("**BACKGROUND** FILE LOADED: background.js ") : ""
                                                           greet = "stop";
                                                           tabId = "";
                                                           break;
+                                                       case "bSettings":
+                                                          chrome.tabs.update(tabId, {url: "https://my.tnt.com/myTNT/landing/sitemap.do?cmd=customise&setLocale=" + sLanguage + "_" + sCountry + ""});
+                                                          greet = "stop";
+                                                          tabId = "";
+                                                          break;
                                                        }
 
                                                        debug == "Yes" ? console.log("**BACKGROUND** TAB END FUNCTION LOADED: " + greet) : "" 
